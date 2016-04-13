@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><configuration>
+<property><name>odps.graph.max.iteration</name><value>30</value></property>
+<property><name>odps.graph.loader.class</name><value>com.aliyun.odps.examples.graph.PageRank$PageRankVertexReader</value></property>
+<property><name>odps.mapred.job.name</name><value>graph_20160413095554_342_3531</value></property>
+<property><name>odps.graph.output.desc</name><value>[{"projName":"","tblName":"pagerank_out","partSpec":[],"label":"","overwrite":true}]</value></property>
+<property><name>odps.graph.input.desc</name><value>[{"projName":"","tblName":"pagerank_in","partSpec":[],"cols":""}]</value></property>
+<property><name>odps.graph.vertex.class</name><value>com.aliyun.odps.examples.graph.PageRank$PageRankVertex</value></property>
+</configuration>

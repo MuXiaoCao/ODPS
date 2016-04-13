@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><configuration>
+<property><name>odps.graph.output.desc</name><value>[{"projName":"","tblName":"kmeans_out","partSpec":[],"label":"","overwrite":true}]</value></property>
+<property><name>odps.graph.runtime.partitioning</name><value>false</value></property>
+<property><name>odps.graph.vertex.class</name><value>com.aliyun.odps.examples.graph.Kmeans$KmeansVertex</value></property>
+<property><name>odps.graph.aggregator.classes</name><value>com.aliyun.odps.examples.graph.Kmeans$KmeansAggregator;</value></property>
+<property><name>odps.mapred.job.name</name><value>graph_20160413100302_905_3709</value></property>
+<property><name>odps.graph.classpath.resources</name><value>kmeans_centers</value></property>
+<property><name>odps.graph.input.desc</name><value>[{"projName":"","tblName":"kmeans_in","partSpec":[],"cols":""}]</value></property>
+<property><name>odps.graph.loader.class</name><value>com.aliyun.odps.examples.graph.Kmeans$KmeansVertexReader</value></property>
+<property><name>odps.graph.max.iteration</name><value>30</value></property>
+<property><name>odps.graph.cache.resources</name><value>kmeans_centers</value></property>
+</configuration>
